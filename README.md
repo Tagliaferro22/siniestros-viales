@@ -1,9 +1,4 @@
 # Siniestros viales
-	El Readme.md del proyecto va más allá de los requisitos mínimos. Proporciona una descripción detallada y completa del proyecto, incluyendo una presentación clara y concisa del mismo. Se mencionan las tecnologías y herramientas utilizadas en el proyecto, así como la metodología aplicada de manera exhaustiva.
-
-Además, se presentan análisis detallados y conclusiones fundamentadas que demuestran un profundo entendimiento de los datos analizados.
-
----
 
 En este proyecto voy a simular ser un análista de datos del gobierno de Buenos Aires, analizando un archivo que contiene datos acerca de siniestros víales ocurridos en el periodo 2016-2021.
 
@@ -22,6 +17,17 @@ También decidí renombrar ciertas columnas que me parecía que era más adecuad
 En el EDA muestro gráficos informativos en los que saqué ciertas conclusiones, cómo por ejemplo que el grupo más afectado por los siniestros víales son las personas que viajan en motocicleta. 
 También, gracias a los datos y a los gráficos pude ver que el tipo de calle en la que suelen suceder más siniestros víales, o dicho de forma más correcta, en las que sucedieron la mayor cantidad de siniestros víales en el periodo 2016 - 2021 es en las Avenidas, con una diferencia significativa
 
-Para ello, usé librerías cómo 
+Para ello, usé librerías cómo:
+- Pandas
+- Matplotlib
+- Seaborn
+- Numpy
 
 En la carpeta Datasets, se encuentran las tablas con las que trabajé para este proyecto, los datos fueron proporcionados en un archivo llamado homicidios.xlsx y otro diccionario de datos también en ese mismo formato, este último archivo contenía la explicación de cada variable presente en el primer archivo mencionado. Cómo adicional, también descargué un Dataset que contenía las posiciones geográficas de las distintas comunas dentro de CABA, con el cuál, tuve problemas para representar visualmente usando el mapa disponible por Power BI, pero con ayuda de otro compañero, pude utilizar un csv que contenía datos similares, con los cuáles pude representar visualmente el mapa de una mejor manera.
+
+Cómo conclusiones de este proyecto de análisis de datos, es importante tener consideración con uno mismo y con las otras personas que circulan en la calle, evitar a toda costa manejar cuando se ha consumido alcohol u otro tipo de estupefacientes ya que eso perjudica la habilidad para conducir. Llevar puesto casco cuando se circula en moto, que aunque no evita un accidente fatal, reduce considerablemente las posibilidades. 
+También es importante evitar en lo posible o circular con precaución en caso de ser inevitable el conducir durante horarios de la madrugada, ya que allí los datos muestran que hay un mayor volumen de siniestros viales.
+Otro detalle, en la epoca de las fiestas, en diciembre, también el volumen de accidentes es considerablemente mayor, por lo cuál, es importante evitar conducir largas distancias durante esos periodos festivos, dónde las personas tienden a consumir alcohol.
+Otro detalle importante es que gran parte, y con diferencia, de los accidentes suceden en las avenidas, por lo cuál, al circular por estas mismas, es importante estar atento, evitar el uso del celular mientras se conduce y hacerlo de una forma consciente y prudente.
+
+Muchas gracias.
